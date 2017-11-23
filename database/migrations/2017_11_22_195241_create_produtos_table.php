@@ -13,7 +13,7 @@ class CreateProdutosTable extends Migration
      */
     public function up()
     {
-        //
+        
     }
 
     /**

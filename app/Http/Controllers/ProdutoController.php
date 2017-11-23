@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Produto;
 class ProdutoController extends Controller
 {
     /**
@@ -13,7 +14,7 @@ class ProdutoController extends Controller
      */
     public function index()
     {
-        //
+        return Produto::all();
     }
 
     /**
@@ -21,9 +22,9 @@ class ProdutoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $req)
     {
-        //
+        
     }
 
     /**
